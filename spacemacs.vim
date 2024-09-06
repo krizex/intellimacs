@@ -60,8 +60,10 @@ source ~/.intellimacs/spacemacs/search-symbol.vim
 let g:WhichKeyDesc_Text = "<leader>x    +text"
 source ~/.intellimacs/spacemacs/text.vim
 
-let g:WhichKeyDesc_Toggles = "<leader>t    +toggles"
-source ~/.intellimacs/spacemacs/toggles.vim
+let g:WhichKeyDesc_Toggles = "<leader>t    GotoDef/Usages"
+nnoremap <leader>t    :action GotoDeclaration<CR>
+vnoremap <leader>t    <Esc>:action GotoDeclaration<CR>
+
 
 let g:WhichKeyDesc_UiTogglesThemes = "<leader>T    +UI toggles/themes"
 source ~/.intellimacs/spacemacs/ui_toogles-themes.vim

@@ -26,7 +26,7 @@ let g:WhichKeyDesc_Run = "<leader>R    +run"
 source ~/.intellimacs/extra/run.vim
 
 source ~/.intellimacs/extra/search.vim
-source ~/.intellimacs/extra/toggles.vim
+" source ~/.intellimacs/extra/toggles.vim
 source ~/.intellimacs/extra/ui_toggles-themes.vim
 source ~/.intellimacs/extra/windows.vim
 source ~/.intellimacs/extra/zoom.vim
