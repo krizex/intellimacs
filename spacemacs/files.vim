@@ -27,6 +27,11 @@ let g:WhichKeyDesc_Files_GotoFile = "<leader>ff goto-file"
 nnoremap <leader>ff    :action GotoFile<CR>
 vnoremap <leader>ff    :action GotoFile<CR>
 
+let g:WhichKeyDesc_Files_FileMembers = "<leader>fm file-members"
+nnoremap <leader>fm    :action FileStructurePopup<CR>
+vnoremap <leader>fm    :action FileStructurePopup<CR>
+
+
 " Rename file
 let g:WhichKeyDesc_Files_Rename = "<leader>fR rename"
 nnoremap <leader>fR    :action RenameFile<CR>

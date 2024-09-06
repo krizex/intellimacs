@@ -1,7 +1,7 @@
 " Go to declaration
-let g:WhichKeyDesc_Major_Goto_Declaration = "<leader>mgg declaration"
-nnoremap <leader>mgg    :action GotoDeclaration<CR>
-vnoremap <leader>mgg    <Esc>:action GotoDeclaration<CR>
+let g:WhichKeyDesc_Major_Goto_Declaration = "<leader>mgd declaration"
+nnoremap <leader>mgd    :action GotoDeclaration<CR>
+vnoremap <leader>mgd    <Esc>:action GotoDeclaration<CR>
 
 " Go to implementation
 let g:WhichKeyDesc_Major_Goto_Implementation = "<leader>mgi implementation"
@@ -22,3 +22,8 @@ vnoremap <leader>mg[    <Esc>:action EditorCodeBlockStart<CR>
 let g:WhichKeyDesc_Major_Goto_CodeBlockEnd = "<leader>mg] code-block-end"
 nnoremap <leader>mg]    :action EditorCodeBlockEnd<CR>
 vnoremap <leader>mg]    <Esc>:action EditorCodeBlockEnd<CR>
+
+" Go to usage
+let g:WhichKeyDesc_Major_Goto_Usgaes = "<leader>mgr usages"
+nnoremap <leader>mgr    :action FindUsages<CR>
+vnoremap <leader>mgr    <Esc>:action FindUsages<CR>
