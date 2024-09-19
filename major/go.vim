@@ -27,3 +27,8 @@ vnoremap <leader>mg]    <Esc>:action EditorCodeBlockEnd<CR>
 let g:WhichKeyDesc_Major_Goto_Usgaes = "<leader>mgr usages"
 nnoremap <leader>mgr    :action FindUsages<CR>
 vnoremap <leader>mgr    <Esc>:action FindUsages<CR>
+
+" Go to usage
+let g:WhichKeyDesc_Major_Goto_BaseSymbol = "<leader>mgb base symbol"
+nnoremap <leader>mgb    :action GotoSuperMethod<CR>
+vnoremap <leader>mgb    <Esc>:action GotoSuperMethod<CR>
