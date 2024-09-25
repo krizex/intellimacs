@@ -3,6 +3,10 @@ let g:WhichKeyDesc_GitVcs_Branches = "<leader>gb branches"
 nnoremap <leader>gb    :action Git.Branches<CR>
 vnoremap <leader>gb    :action Git.Branches<CR>
 
+let g:WhichKeyDesc_GitVcs_Blame = "<leader>gB blame"
+nnoremap <leader>gB    :action Annotate<CR>
+vnoremap <leader>gB    :action Annotate<CR>
+
 " Show Version control tool window
 let g:WhichKeyDesc_GitVcs_ShowWindow = "<leader>gG show-window"
 nnoremap <leader>gG    :action ActivateVersionControlToolWindow<CR>
