@@ -12,3 +12,10 @@ vnoremap <leader>je   :action FileStructurePopup<CR>
 let g:WhichKeyDesc_JumpJoinSplit_JumpToSymbol = "<leader>js jump-to-symbol"
 nnoremap <leader>js    :action GotoSymbol<CR>
 vnoremap <leader>js    :action GotoSymbol<CR>
+
+
+nnoremap [[    :action MethodUp<CR>
+vnoremap [[    :action MethodUp<CR>
+
+nnoremap ]]    :action MethodDown<CR>
+vnoremap ]]    :action MethodDown<CR>
